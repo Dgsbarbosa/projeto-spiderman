@@ -11,6 +11,12 @@
   flex-flow: row nowrap;
 }
 
+.s-wrapper video{
+  width: 100%;
+  position: fixed;
+  
+}
+
 .s-wrapper .s-left-column{
   width: 100px;
   height: 100%;
@@ -19,7 +25,7 @@
   align-items: center;
   position: fixed;
   padding-right: 50px;
-  left: 0%;
+  left: 0;
   top: 0;
   z-index: 1;
 }
@@ -27,10 +33,11 @@
 .s-wrapper .s-main-content{
   height: 100%;
   width: 100%;
-  background-color: gray;
+  
   padding-left: 30px;
   padding-left: 130px;
-  background-image: url('../images/spiderman-tobey/movie-01/background.png');
+  position: relative;
+  
 }
 
 .s-wrapper .s-main-content__top{
@@ -47,6 +54,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  
 }
 
 .s-wrapper .s-main-content .s-logo img{
@@ -81,3 +89,19 @@
   display: flex;
   flex-direction: row;
 }
+
+.s-spiderman-01-01{
+  background-image: url('../images/spiderman-tobey/movie-01/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-01-02{
+  background-image: url('../images/spiderman-tobey/movie-02/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-01-03{
+  background-image: url('../images/spiderman-tobey/movie-03/background.png');
+  background-size: cover;
+}
+

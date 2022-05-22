@@ -5,12 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/css/internal.css">
+  <link  rel="stylesheet"   href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
   <title>Multiver | Spiderman</title>
 </head>
 <body>
 
   <div class="s-wrapper">
 
+    <video  loop autoplay muted>
+      <source src="../../assets/videos/spiderman-2002-trailer.mp4" type="video/mp4">
+    </video>
     <div class="s-left-column">
       
         <nav class="navigator"> 
@@ -29,7 +33,7 @@
 
     </div>
 
-    <div class="s-main-content">
+    <div class="s-main-content ">
       
       <div class="s-main-content__top">
 
@@ -73,30 +77,29 @@
         <div class="gallery">
           <ul>
             <li>
-              <a  href="../../assets/images/spiderman-tobey/movie-01/gallery/image-01-full.jpg">
+              <a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-01-full.jpg">
                 <img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-01.png" alt="">
               </a>
             </li>
             <li>
-              <a  href="../../assets/images/spiderman-tobey/movie-01/gallery/image-02-full.jpg">
+              <a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-02-full.jpg">
                 <img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-02.png" alt="">
               </a>
             </li>
             <li>
-              <a  href="../../assets/images/spiderman-tobey/movie-01/gallery/image-03-full.jpg">
+              <a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-03-full.jpg">
                 <img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-03.png" alt="">
               </a>
             </li>
           </ul>
         </div>
-
       </div>
-
     </div>
-
-    
-  </div>
-
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+ <script>
+  //  JavaScript will go here
+</script>
   
 </body>
 </html>

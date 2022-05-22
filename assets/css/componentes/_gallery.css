@@ -1,6 +1,7 @@
 .gallery {
   padding: 20px;
   padding-left: 0;
+ 
 }
 
 .gallery ul{
@@ -20,3 +21,4 @@
   border:solid 6px white;
   border-radius: 15px;
 }
+
